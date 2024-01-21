@@ -1,0 +1,16 @@
+p{
+    color: yellow;
+    background: green;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.Box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}
