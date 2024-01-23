@@ -36,10 +36,9 @@ nav {
 
 .profile img {
     flex: 15%;
-    width: 150px;
+    width: 250px;
     display: block;
-    margin-left: 0;
-    margin-right: 0;
+    margin: auto;
 }
 
 .profile h1 {
@@ -48,4 +47,8 @@ nav {
 
 .bulleted-list {
     line-height: 24px;
+}
+
+.timetable {
+    text-align:left;
 }
