@@ -1,14 +1,7 @@
-var number = 10;
-var string = 'Hello There';
-var isRad = true;
-
-if(number == 10) {
-    console.log("Yeah buddy!");
-}
-else {
-    console.log("Nope");
-}
-
-document.getElementById("Box").addEventListener("click", function() {
-    alert("I got clicked!");
-})
+function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  } 
