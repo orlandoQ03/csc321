@@ -1,51 +1,87 @@
 <!DOCTYPE html>
-    <html lang="en">
-
+<html>
     <head>
-        <title>My webpage</title>
-
-        <style>
-            aside{
-                width: 30%;
-                padding-left: 15px;
-                margin-left: 15px;
-                float: right;
-                font-style: italic;
-                background-color: lightgray;
-            }
-        </style>
+        <title>Personal Blog</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <article>
-            <header>
-                <h1>WELCOME!!!</h1>
-                <p>Welcome to my first webpage!</p>
-            </header>
-            <p> This is a paragraph within an article section of this webpage. This is experimental and can be subject to future change.</p>
-        </article>
+        <p style="background-image: url(images/blue-matrix-rain-digital-hex-077985963_prevstill.png);"></p>
 
+        <header>
+            <h1>My Personal Blog!</h1>
+            <h4>By Orlando Quintana</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="images/computer-cat.jpg">Extra</a>
+            </nav>
+        </header>
+        <br>
         <main>
-            <p>This is the main section of the page. This is where I usually talk about stuff, like how I designed this webpage using HTML. It is a very cool thing to do. I'd recommend it to my dog</p>
+            <div class="row">
+
+                <div class="post-text-box">
+                    <h1>Newest Post</h1>
+                    <section>
+                        <h1>Cats, or dogs?</h1>
+                        <p>I'm more of a cat person. I think cats are better than dogs, change my mind.</p>
+                    </section>
+                </div>
+
+                <div class="profile">
+                    <h1>About me</h1>
+                    <img src="images/computer-cat.jpg" alt="computer-cat">
+                    <h4>About the author</h4>
+
+                    <p>This is my first completed webpage (so far). As of spring of 2024, I am currently taking
+                    16 units this semesters. The classes I'm currently taking include:
+                    </p>
+
+                    <div class="bulleted-list">
+                        <ol>
+                            <li>Data Structures (4 units)</li>
+                            <li>Linear Algebra (3 units)</li>
+                            <li>Physics II (4 units)</li>
+                            <li>OS and Networking (3 units)</li>
+                            <li>Web Development (3 units)</li>
+                        </ol>
+                    </div>
+
+                    <p>
+
+                    </p>
+
+                    <div class="timetable">
+                        <h4> My Timetable </h4>
+                        <table style="width:100%">
+                            <tr>
+                              <th>Course</th>
+                              <th>Time</th>
+                            </tr>
+                            <tr>
+                              <td>Data Structs</td>
+                              <td>T, R</td>
+                            </tr>
+                            <tr>
+                              <td>Linear Algb</td>
+                              <td>M, W, F</td>
+                            </tr>
+                            <tr>
+                                <td>Phys II</td>
+                                <td>M, W, F</td>
+                            </tr>
+                            <tr>
+                                <td>OS and Net</td>
+                                <td>T, R</td>
+                            </tr>
+                            <tr>
+                                <td>Web Dev</td>
+                                <td>T, R</td>
+                            </tr>
+                          </table>
+                    </div>
+                </div>
+            </div>
         </main>
-
-        <aside>
-            <h4>According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyways. Because bees don't care what humans think is impossible.</h4>
-            <p>I am studying Computer Science. I am well into junior year, and currently taking 16 credits.</p>
-        </aside>
-
-        <figure>
-            <img src="images\FSukt-sUUAA891Q.png" alt="pyrothumbsup">
-            <figcaption>A pyromaniac from lethal company 2 approves of this webpage.</figcaption>
-        </figure>
-
-        <details>
-            <summary>Click here for more info</summary>
-            <mark>Boo</mark>
-        </details>
-
-        <footer>
-            <p>Author: me</p>
-        </footer>
     </body>
 </html>
